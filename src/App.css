@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 155vh;
+}
+.
+form{
+  width: 500px;
+}
+input,select{
+  width: 208%;
+  background: #343955;
+  border-radius: 10px;
+  border: 2px solid #807676;  
+  /* height: 22px; */
+  /* margin: 7px 0px;
+  padding: 5px;
+  
+  
+}
+
+
+input::placeholder  {
+  color: rgb(210, 210, 228);
+  
+}
+
+label{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.signbutton{
+  margin-top: 18px;
+  width: 216%;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: green;
+  color: white;
+}
+.submitbutton{
+  background-color: rgb(41, 76, 41);
+  margin-top: 18px;
+  width: 216%;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  color: black;
+}
+.signinput{
+  display: flex;
+  flex-direction: column;
+
+}
+.inputerrors{
+  border-color: red;
+}
+.errors{ */
+  /* color: red;
+  font-size: 12px;
+  align-items: left;
+  margin: 2px;
+
+}
+.checkbox{
+  
+}
+.logindiv{
+
+} */
+/* select{
+  width: 216%;
+} */ 
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center'';
+  justify-content: center;
+  height: 100vh;
+}
+form{
+  width: 500px;
+}
+input,
+select{
+  background: #343955;
+  border: 2px solid #807676;  
+  width: 100%;
+  padding: 8px 7px;
+  margin: 5px 0px;
+  color: white;
+}
+input::placeholder{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.checkbox{
+  display: flex;
+  gap: 11px;
+  font-size: 12px;
+  align-items: center;
+}
+.checkbox input{
+  width: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signbutton{
+  margin-top: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: green;
+  color: white;
+  color: white;
+  margin-bottom: 19px;
+}
+.submitbutton{
+  background-color: rgb(41, 76, 41);
+  margin-top: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  color: black;
+  color: white;
+  margin-bottom: 19px;
+}
+.inputerrors{
+  border-color: red;
+}
+.errors{ 
+  color: red;
+  font-size: 12px;
+  align-items: left;
+  margin: 2px;
+
+}
+label{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+.link{
+  color: white;
+  margin-top: 20px;
 }
